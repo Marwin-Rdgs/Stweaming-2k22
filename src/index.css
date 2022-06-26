@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card-zoom {
+    @apply relative items-center justify-center m-3 overflow-hidden shadow-xl w-80 h-80;
+  }
+
+.card-zoom-image {
+    @apply  w-full h-full transition-all duration-500 ease-in-out transform;
+  }
+
+  .card-zoom:hover .card-zoom-image {
+    @apply scale-110;
+  }
