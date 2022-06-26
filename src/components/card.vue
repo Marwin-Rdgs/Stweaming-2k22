@@ -30,10 +30,4 @@
 </template>
 
 <script>
-import heart from './icones/like.vue'
-
-export default {
-    components:{ heart }
-};
-
 </script>

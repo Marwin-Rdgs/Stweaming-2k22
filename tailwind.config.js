@@ -19,7 +19,11 @@ module.exports = {
         "lg": "1.3125rem",
         "xl": "2.0625rem",
         "2xl": "2.1875rem"
-       }
+       },
+       "fontFamily": {
+        "kyivtype-sans": "KyivType Sans",
+        "montserrat": "Montserrat"
+       },
      }
      
   },
