@@ -1,5 +1,5 @@
 <template>
-<div class="sticky flex gap-4 mb-20 lg:m-2 overflow-hidden">
+<div class="fixed flex gap-4 mb-20 lg:m-2 overflow-hidden">
    <Router-Link to="/"><logo/></Router-Link>
    <ul class="flex gap-9 mt-10 font-kyivtype-sans text-lg">
     <Router-Link to="/"><li class="hover:underline">Film</li></Router-Link> |
