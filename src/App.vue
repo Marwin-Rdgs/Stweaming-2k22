@@ -20,7 +20,7 @@
 <script>
 import { RouterLink, RouterView } from "vue-router"
 
-import headerw from "./components/header.vue"
+import headerw from "./components/header2.vue"
 import footerw from "./components/footer.vue"
 import navbarw from "./components/navbar.vue"
 

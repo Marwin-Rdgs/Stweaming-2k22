@@ -16,6 +16,8 @@ import shopView from '../Views/shopView.vue'
 import aboutView from '../Views/aboutView.vue'
 import contactView from '../Views/contactView.vue'
 
+import legalView from '../Views/legalView.vue'
+
 
 const router = createRouter ({
     history: createWebHistory(import.meta.env.BASE_URL),
@@ -32,6 +34,7 @@ const router = createRouter ({
         {path: '/shop', name: 'shopView', component: shopView},
         {path: '/about', name: 'aboutView', component: aboutView},
         {path: '/contact', name: 'contactView', component: contactView},
+        {path: '/mentionslegales', name: 'legalView', component: legalView},
             ]
 })
 

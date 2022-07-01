@@ -1,6 +1,6 @@
 <template>
 <div class="fixed flex gap-4 mb-20 lg:m-2 overflow-hidden">
-   <Router-Link to="/"><logo class="w-4/5 hover:animate-pulse" /></Router-Link>
+   <Router-Link to="/"><logo class="w-4/5 hover:animate-pulse xs:hidden" /></Router-Link>
    <ul class="flex gap-9 mt-10 font-kyivtype-sans text-lg">
     <Router-Link to="/"><li class="hover:underline">Film</li></Router-Link> |
     <Router-Link to="/"><li class="hover:underline">Série</li></Router-Link> |

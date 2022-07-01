@@ -11,6 +11,11 @@ module.exports = {
         "noir": "#070828",
         "blanc-b": "#f3feff"
        },
+       "screens": {
+        "ipad_mini": '744px',
+        "ipad_pro": '1024px',
+        "desktop": '1440px',
+      },
        "borderRadius": {
         "none": "0",
         "xs": "0.625rem",
